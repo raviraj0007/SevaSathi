@@ -1,4 +1,4 @@
-package org.sevasathi;
+package org.sewasathi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

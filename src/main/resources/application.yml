@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://Sewa-Sathi:4A1T7SllEmQU8M7w@sewa-sathi.mzqrpqh.mongodb.net/?retryWrites=true&w=majority&appName=Sewa-Sathi
+      database: SewaSathi
+      auto-index-creation: true
