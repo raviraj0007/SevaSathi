@@ -1,7 +1,7 @@
 package org.sewasathi.Controller;
 
 
-import org.sewasathi.Entity.WorkerEntry;
+import org.sewasathi.Entity.Worker;
 import org.sewasathi.Service.WorkerEntryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -20,7 +20,7 @@ public class WorkerController {
 
 
      @PostMapping
-     public ResponseEntity<?> registerWorker(@RequestBody WorkerEntry workerentry) {
+     public ResponseEntity<?> registerWorker(@RequestBody Worker workerentry) {
          workerEntryService.saveWorker(workerentry);
          return new ResponseEntity<>(HttpStatus.CREATED);
      }

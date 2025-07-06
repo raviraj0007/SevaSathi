@@ -1,7 +1,7 @@
 package org.sewasathi.Service;
 
-import org.sewasathi.Entity.WorkerEntry;
-import org.sewasathi.Repository.WorkerEntryRepository;
+import org.sewasathi.Entity.Worker;
+import org.sewasathi.Repository.WorkerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 public class WorkerEntryService {
 
     @Autowired
-    private WorkerEntryRepository workerRepository;
+    private WorkerRepository workerRepository;
 
-    public void saveWorker(WorkerEntry worker) {
+    public void saveWorker(Worker worker) {
         workerRepository.save(worker);
     }
 

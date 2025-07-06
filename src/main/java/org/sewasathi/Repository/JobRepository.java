@@ -1,8 +1,7 @@
 package org.sewasathi.Repository;
 
 import org.bson.types.ObjectId;
-import org.sewasathi.Entity.WorkerEntry;
+import org.sewasathi.Entity.Job;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface WorkerEntryRepository extends MongoRepository<WorkerEntry , ObjectId> {
-}
+public interface JobRepository extends MongoRepository<Job, ObjectId> {}
